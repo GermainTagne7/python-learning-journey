@@ -1,0 +1,17 @@
+# notes management
+notes = []
+
+for i in range(5):
+    note = float(input("Enter a note : "))
+    notes.append(note)
+
+sum = 0
+for note in notes:
+    sum += note
+
+average = sum / len(notes)
+best = max(notes)
+
+print("Notes :", notes)
+print("average:", average)
+print("best notes:", best)
